@@ -37,7 +37,19 @@ Login credentials are needed in `App.config` file.
 
 ### Maunally
 
-From command line, do some thing.
+1. Add login credential in `/RepeatingInvoicesTabTests/App.config` file
+2. Open a command line prompt and switch repository
+3. Clean Solution
+
+		"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe" "AutomateRepeatingInvoicesTab.sln" /Clean
+
+4. Build Solution
+
+		"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\devenv.exe" "AutomateRepeatingInvoicesTab.sln" /Build Release
+
+5. Run tests
+
+		"C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\IDE\mstest.exe" /testcontainer:"RepeatingInvoicesTabTests/bin/Release/RepeatingInvoicesTabTests.dll" /testsettings:"Local.testsettings"
 
 ### CI
 
