@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{224D3A70-0272-4631-A758-FD713AE05C14}"
+	ProjectSection(SolutionItems) = preProject
+		AutomateRepeatingInvoicesTab1.vsmdi = AutomateRepeatingInvoicesTab1.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiComponents", "UiComponents\UiComponents.csproj", "{F1B40FCD-0A58-470D-9E78-353D9696A793}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helpers", "Helpers\Helpers.csproj", "{BD1C7F57-8B0B-46F9-A9E2-E4DC0300CBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingInvoicesTabTests", "RepeatingInvoicesTabTests\RepeatingInvoicesTabTests.csproj", "{71857AFB-28F4-4E5C-8FDE-8BBAA543A194}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AutomateRepeatingInvoicesTab1.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1B40FCD-0A58-470D-9E78-353D9696A793}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1B40FCD-0A58-470D-9E78-353D9696A793}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1B40FCD-0A58-470D-9E78-353D9696A793}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1B40FCD-0A58-470D-9E78-353D9696A793}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD1C7F57-8B0B-46F9-A9E2-E4DC0300CBDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD1C7F57-8B0B-46F9-A9E2-E4DC0300CBDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD1C7F57-8B0B-46F9-A9E2-E4DC0300CBDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD1C7F57-8B0B-46F9-A9E2-E4DC0300CBDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71857AFB-28F4-4E5C-8FDE-8BBAA543A194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71857AFB-28F4-4E5C-8FDE-8BBAA543A194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71857AFB-28F4-4E5C-8FDE-8BBAA543A194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71857AFB-28F4-4E5C-8FDE-8BBAA543A194}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
