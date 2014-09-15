@@ -13,7 +13,7 @@ AutomateXeroRepeatingInvoicesTab
 
 - Windows 7
 - Visual Studio 2010 Ultimate
-- Chrome 37, Firefox 32.0.1, IE 10
+- Chrome 37, Firefox 24.6.0 ESR, IE 10
 
 ## Xero account
 

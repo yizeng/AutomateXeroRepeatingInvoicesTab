@@ -3,8 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{224D3A70-0272-4631-A758-FD713AE05C14}"
 	ProjectSection(SolutionItems) = preProject
-		AutomateRepeatingInvoicesTab1.vsmdi = AutomateRepeatingInvoicesTab1.vsmdi
+		AutomateRepeatingInvoicesTab.vsmdi = AutomateRepeatingInvoicesTab.vsmdi
+		LICENSE = LICENSE
 		Local.testsettings = Local.testsettings
+		README.md = README.md
 		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
 	EndProjectSection
 EndProject
@@ -16,7 +18,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepeatingInvoicesTabTests",
 EndProject
 Global
 	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = AutomateRepeatingInvoicesTab1.vsmdi
+		CategoryFile = AutomateRepeatingInvoicesTab.vsmdi
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
